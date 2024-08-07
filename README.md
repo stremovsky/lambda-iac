@@ -16,7 +16,7 @@
 ```
 terraform init
 ./prepare-files.sh
-terraform apply
+terraform apply -auto-approve
 ./test-api-gw.sh
-terraform destroy
+terraform destroy -auto-approve
 ```
