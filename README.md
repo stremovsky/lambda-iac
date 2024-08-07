@@ -1,8 +1,8 @@
 # Sample Lambda / API Gateway / DynamoDB Project Created with Terraform
 
 ## Prerequisites
-1. Download and install [https://developer.hashicorp.com/terraform/install](Terraform).
-2. Ensure you have AWS CLI installed and configured with appropriate access keys.
+1. Download and install [Terraform](https://developer.hashicorp.com/terraform/install)
+2. Ensure you have AWS CLI installed and configured with appropriate access keys
 
 ## How to use
 1. Modify ``provider.tf`` to ensure Terraform can work with your AWS access key. For example, you might use a custom AWS profile.
